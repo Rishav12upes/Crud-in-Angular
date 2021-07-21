@@ -1,0 +1,54 @@
+
+*{
+  box-sizing: border-box; /*it will be a box and content will be adjusted*/
+  font-family: 'Muli', 'Baloo Da 2', 'Montserrat', sans-serif;
+}
+.header{
+
+  padding: 10px;
+  text-align: center;
+  color: red;
+  background: yellowgreen;
+  width: 100%;
+  margin: auto;
+}
+body
+{
+font-family: Arial;
+padding: 10px;
+background: green;
+}
+.topnav ul{
+list-style-type: disc;
+}
+.topnav {
+  overflow: hidden; /*if the content is exceeding the size of div, then it will not display additional content */
+  background-color: orange;
+  width: 50%;
+  margin: auto;
+}
+.topnav ul{
+  list-style-type: none;
+}
+/* Style the topnav links */
+.topnav a {
+float: left;
+color: black;
+text-align: center;
+padding: 14px;
+text-decoration: none;
+letter-spacing: 1px;
+height: 70px;
+}
+.footer {
+  padding: 10px;
+  text-align: left;
+  color: lightcoral;
+  /* background: indigo; */
+  margin-top: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+
+
